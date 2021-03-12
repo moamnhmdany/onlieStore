@@ -1,33 +1,48 @@
 <html>
+
 <head>
     <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <style type="text/css">
-    .a1 button{
-    	border-radius:15px;
-    	margin-left:300px;
-
-    }
-   
+    <link rel="stylesheet" href="bootStrap/dist/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1,
+          user-scalable=no "
+          >
     
-    .a2{
-    	margin-left:950px;
-    	margin-top:-1%;
-    }
-    </style>
-    </head>
-<body>
-  <div class="a1">
-<button class="btn btn-primary"><img src="se.png" style="width:20px;">Search</button><input style="width: 500px;display:inline-block;margin-top:30px;border-radius: 15px;border-color: blue;" class="form-control" placeholder="Our Products">
-</div>
-<div class="a2">
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3hsq_H26ScXHJCGpCWU1cmvUOoZiJDQxGGQ&usqp=CAU" style="width:25px;margin-top:-15%;margin-left:20px;">
-	<a href="#" style="font-size:25px;margin-left:-40px;">Sign In</a>
-	<img src="https://cdn3.iconfinder.com/data/icons/simple-files-1/128/Message-2-512.png" style="width:35px;margin-left:20px;margin-top:-15%;"><a href="#" style="margin-left:-40px;font-size:20px;">Message</a>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlheGRRldxVOfkWZDDrc1T4gYZ0s9yngiSqw&usqp=CAU" style="width: 35px;margin-left:20px;margin-top:-15%;"><a href="#" style="margin-left:-40px;margin-top: -1%;font-size:20px;">Order</a>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsDd6pqRyvuTCZg7BOjynm0foO3WBnSwxUTg&usqp=CAU"style="width: 35px;margin-left:20px;margin-top:-15%;"><a href="#" style="margin-left:-40px;margin-top: -1%;font-size:20px;">Cart</a>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxNXvRIuRSR1anM3AOe_EnHoq520h6uV1qDw&usqp=CAU"style="width: 35px;margin-left:20px;margin-top:-15%;"><a href="#" style="margin-left:-40px;margin-top: -1%;font-size:20px;">Menu</a>
+    <style type="text/css">
+        
+        
+        .a1 button {
+            border-radius: 15px;
+            margin-left: 300px;
 
-</div>
- </body>
+        }
+
+
+        .a2 {
+            margin-left: 950px;
+            margin-top: -1%;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootStrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="icons/shopping-cart-online-store-svgrepo-com.svg" alt="" width="30" height="24" class="d-inline-block align-top">
+      FreeStore
+    </a>
+      <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+      <input type="email">
+  </div>
+</nav>    
+</body>
+
 </html>
